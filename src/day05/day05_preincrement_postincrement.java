@@ -1,4 +1,4 @@
-package day05_matişlemler;
+package day05;
 
 public class day05_preincrement_postincrement {
     public static void main(String[] args) {

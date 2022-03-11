@@ -1,4 +1,4 @@
-package day04_casting;
+package day04;
 
 public class Increment {
     public static void main(String[] args) {

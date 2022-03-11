@@ -1,6 +1,5 @@
-package day05_matişlemler;
+package day05;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class day05_matoperatörler {
