@@ -1,7 +1,7 @@
 package day19;
 
 public class scope {
-    //num alttaki metodlarda kullanılamaz, yalnızca kendi metodunda
+    //string alttaki metodlarda kullanılamaz, yalnızca kendi metodunda
     //göndermek gerekir ya da ana class level'da oluşturmak gerek
     // static yaparsak tüm methodlarda kullanılabilir
     //static olmazsa yalnızca static olmayanlarda kullanılabilir
