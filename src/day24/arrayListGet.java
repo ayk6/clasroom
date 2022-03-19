@@ -5,6 +5,7 @@ import java.util.List;
 
 public class arrayListGet {
     public static void main(String[] args) {
+
         //listeyi değiştirmez, istenen indexteki veriyi alır
 
         List<Integer> listNumbers = new ArrayList<>();
