@@ -12,7 +12,7 @@ public class arrayContains {
         checkNumber(array, num);
 
         System.out.println(Arrays.binarySearch(array,num));
-        // kaçıncı indexte olduğunu yazdırır,
+        // kaçıncı indexte olduğunu yazdırır, önce sort yapılmazsa yanlış sonuç verebilir
         // yoksa olsaydı sort indexini -(index+1) olarak verir
     }
 
