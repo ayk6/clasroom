@@ -19,7 +19,7 @@ public class arrayListAdd {
         //arrayList boyutu yazdırma
         System.out.println(listNumbers.size()); //5
 
-        //arrayList boşsa kontrol etme- boolean döner
+        //arrayList boş mu kontrol etme- boolean döner
         System.out.println(listNumbers.isEmpty()); //false
 
     }

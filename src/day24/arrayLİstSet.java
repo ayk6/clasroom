@@ -21,8 +21,8 @@ public class arrayLİstSet {
         wordsNew.add(words.set(0,"first")); //listeyi güncelledi
                                             //silinen indexi yeni list e kaydetti
 
-        System.out.println(words);
-        System.out.println(wordsNew);
+        System.out.println(words); //[first, second, third]
+        System.out.println(wordsNew); //[newFirst]
 
 
 
