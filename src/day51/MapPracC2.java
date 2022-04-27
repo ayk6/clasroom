@@ -2,10 +2,7 @@ package day51;
 
 import day49.MapMain;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MapPracC2 {
     // verilen Map'te istenen veriyi içeren value'leri döndüren method oluştur
@@ -15,6 +12,7 @@ public class MapPracC2 {
         String lang= "Java";
 
         List<String> result= langMethod(classMap,lang);
+        System.out.println(result);
 
     }
 
@@ -22,7 +20,31 @@ public class MapPracC2 {
         List<String> result= new ArrayList<>();
 
         Collection<String> classValueColl = classMap.values();
+        List<String> classValueList = new ArrayList<>();
+        classValueList.addAll(classValueColl);
 
+        String firstValue= classValueList.get(0); // Saldıray, Durgun, QA
+        String [] firstValueArray= firstValue.split(", ");
+        int outerArrayLength = classValueList.size();
+        int innerArrayLength = firstValueArray.length;
+
+        String valueMDArray[][]=new String [outerArrayLength][innerArrayLength];
+
+        for (int i=0; i<outerArrayLength; i++){
+            String temp [] = classValueList.get(i).split(", ");
+            for (int j=0; j<innerArrayLength; j++){
+                valueMDArray [i][j]= temp[j];
+            }
+        }
+        System.out.println(Arrays.deepToString(valueMDArray));
+
+        for (int i=0; i<outerArrayLength; i++ ){
+            for (int j=0; j<innerArrayLength; j++){
+                if (valueMDArray[i][j].equals(lang)){
+                    result.add(valueMDArray[i][0]);
+                }
+            }
+        }
 
         return result;
     }
