@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaBootcampTP.iml" filepath="$PROJECT_DIR$/JavaBootcampTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaB104/javaB104.iml" filepath="$PROJECT_DIR$/javaB104/javaB104.iml" />
     </modules>
   </component>
 </project>
