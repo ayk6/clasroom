@@ -9,14 +9,14 @@ public class Query01 {
         Class.forName("com.mysql.jdbc.Driver");
 
         // create link
-        Connection con; // = DriverManager.getConnection(
+             Connection con; // = DriverManager.getConnection(
         //  url: "jdbc:mysql://localhost:3306/database", user: "root", password: "1234");
 
         // create an obj
-        Statement statement; // = con.createStatement();
+            Statement statement; // = con.createStatement();
 
         // result set
-        Resultset data;
+             Resultset data;
         // statement.executeQuery(sql: "select * from ...");
 
         // get result
@@ -26,7 +26,13 @@ public class Query01 {
         // }
 
         // Column label can be used instead of column index
+        //  System.out.println(data.getInt(columnLabel: "class")+ data.getStrint(columnLabel: "lesson"));
 
+
+        // close
+        // con.close();
+        // statement.close();
+        // data.close();
 
     }
 }
