@@ -16,5 +16,9 @@ public class C03scanner {
 
         System.out.println("perimeter of square : "+edge*4);
         System.out.println("are of square : "+edge*edge);
+
+        // scan.next() -> a word
+        // scan.nextLine() ->words
+        // scan.next().charAt(0) -> letter
     }
 }
