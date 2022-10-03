@@ -14,6 +14,8 @@ public class C02stringManipulation {
         // replace()
         // startsWith()
         // endsWith()
+        // isEmpty() -> returns boolean
+        // isBlank() -> returns true if str empty or contains only space
 
         String password = "password123";
 
