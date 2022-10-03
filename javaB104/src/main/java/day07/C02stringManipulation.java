@@ -12,6 +12,8 @@ public class C02stringManipulation {
         // contains() -> returns boolean
         // split() -> returns array
         // replace()
+        // startsWith()
+        // endsWith()
 
         String password = "password123";
 
