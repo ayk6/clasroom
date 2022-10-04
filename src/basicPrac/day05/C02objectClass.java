@@ -16,5 +16,8 @@ public class C02objectClass {
         obj2.name = "White";
         obj2.age = 49;
         obj2.phoneNum = "4815122342";
+
+        System.out.println(obj1.name+", "+obj1.age+", "+obj1.phoneNum);
+        System.out.println(obj2.name+", "+obj2.age+", "+obj2.phoneNum);
     }
 }
