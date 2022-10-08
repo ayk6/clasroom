@@ -21,5 +21,7 @@ public class forLoop {
             else System.out.println(i); //son virgülü yazmaması için
         }
 
+
+
     }
 }

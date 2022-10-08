@@ -9,7 +9,7 @@ public class nestedForLoop2 {
            * * * * *
          */ //geometrik şekli çiz
 
-        int input = 5;
+        int input = 9;
         for (int i = 1; i <= input; i++) {
             for (int j = 1; j <= i ; j++) {
                 System.out.print("* ");
