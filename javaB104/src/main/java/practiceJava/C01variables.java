@@ -11,5 +11,6 @@ public class C01variables {
         System.out.println(Short.MAX_VALUE); //32767
 
 
+
     }
 }
