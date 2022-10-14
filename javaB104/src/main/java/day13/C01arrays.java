@@ -1,6 +1,7 @@
 package day13;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class C01arrays {
     public static void main(String[] args) {
