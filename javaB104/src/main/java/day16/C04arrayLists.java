@@ -39,7 +39,5 @@ public class C04arrayLists {
         System.out.println(intList.remove((Integer) 3));
         // removes given element and returns boolean
         // bcs int is index, wrapper is element
-
-
     }
 }
