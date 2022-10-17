@@ -1,6 +1,6 @@
 package practiceJava;
 import java.util.Scanner;
-public class CumledekiKelimeSayisi {
+public class C08wordInSentence {
     public static void main(String[] args) {
         //Kullanicidan bir cumle isteyin ve cumledeki kelime sayisini bulun
         Scanner scan= new Scanner(System.in);
