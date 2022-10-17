@@ -30,5 +30,14 @@ public class C05arrayLists {
             }
 
         }
+        List<String> isimler =new ArrayList<>();
+        isimler.add("Ali");
+        isimler.add("Veli");
+        isimler.add("Ayşe");
+        isimler.add("Fatma");
+        isimler.add("Ömer");
+
+        isimler.removeIf(w -> w.toLowerCase().contains("a"));
+        System.out.println(isimler);
     }
 }
