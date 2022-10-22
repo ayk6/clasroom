@@ -1,4 +1,4 @@
-package practiceJava;
+package practiceJava.preAdvanced;
 import java.util.Scanner;
 public class C08wordInSentence {
     public static void main(String[] args) {

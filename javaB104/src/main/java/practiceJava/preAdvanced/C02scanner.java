@@ -1,4 +1,4 @@
-package practiceJava;
+package practiceJava.preAdvanced;
 
 import javax.sound.midi.SysexMessage;
 import java.util.Scanner;

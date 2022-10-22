@@ -1,4 +1,4 @@
-package practiceJava;
+package practiceJava.preAdvanced;
 
 public class C05trapWater {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practiceJava;
+package practiceJava.preAdvanced;
 
 public class C07ternary {
     public static void main(String[] args) {

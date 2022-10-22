@@ -1,4 +1,4 @@
-package practiceJava;
+package practiceJava.preAdvanced;
 
 public class C09string {
     public static void main(String[] args) {
