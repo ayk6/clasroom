@@ -1,4 +1,4 @@
-package practiceJava;
+package practiceJava.preAdvanced;
 
 public class C01performanceTest {
     public static void main(String[] args){
