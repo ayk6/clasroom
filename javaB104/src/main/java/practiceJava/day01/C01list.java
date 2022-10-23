@@ -25,8 +25,8 @@ public class C01list {
         }
         System.out.println(nums);
 
-        Integer sayi = 200;
-        nums.remove(sayi);
+        Integer num = 200;
+        nums.remove(num);
 
         System.out.println(nums);
     }
