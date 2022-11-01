@@ -1,6 +1,7 @@
 package day19;
 
 import java.time.LocalDate;
+
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
@@ -18,7 +19,7 @@ public class C01dateTime {
         LocalTime ctJapan = LocalTime.now(ZoneId.of("Asia/Tokyo"));
         System.out.println(ctJapan); // 04:11:13.697480100
 
-        LocalTime ctIst = LocalTime.now(ZoneId.of("Europe/Istanbul"));
+        LocalTime ctIst = LocalTime.now(ZoneId.of("Europe/Berlin"));
         System.out.println(ctIst); // 22:11:50.764761300
 
         // adding days
