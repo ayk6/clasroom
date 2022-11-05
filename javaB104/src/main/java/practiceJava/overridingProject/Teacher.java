@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Teacher extends BaseCreditManager{
 
-    public Teacher() {
-        System.out.println("kredi türü :  öğretmen kredisi");
+    public Teacher(){
+        super(0);
+        System.out.println("öğretmen kredisi");
     }
 
     @Override

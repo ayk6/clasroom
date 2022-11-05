@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Farmer extends BaseCreditManager {
 
     public Farmer() {
-        System.out.println("kredi türü :  tarım kredisi");
+        super(0);
+        System.out.println("tarım kredisi");
     }
 
     @Override
