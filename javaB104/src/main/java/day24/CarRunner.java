@@ -1,5 +1,7 @@
 package day24;
 
+import java.util.Arrays;
+
 public class CarRunner {
     public static void main(String[] args) {
         Car car1 = new Car();
@@ -8,10 +10,13 @@ public class CarRunner {
         Car car4 = new Car();
 
         // best pracc : use static methods w class, not objects
+        // statics can not override
+
         System.out.println(Car.counter); // 4
         System.out.println(car1.price); // 15001
 
         System.out.println(Car.counter); // 4
         System.out.println(car2.price); // 15001
+
     }
 }
