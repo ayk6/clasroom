@@ -1,8 +1,19 @@
 package practiceJava.overridingProject;
 
 
+import java.util.Scanner;
+
 public class BaseCreditManager {
-    protected void calculate(int a){
-        System.out.println("kredi geri ödeme tutarı = "+ a*1.18);
+
+    public BaseCreditManager() {
+        System.out.println("kredi başvurusu alındı");
+    }
+
+    protected void calculate(){
+
+        Scanner scan= new Scanner(System.in);
+        System.out.println("kredi tutarı : ");
+        int credit = scan.nextInt();
+        System.out.println("kredi geri ödeme tutarı = "+ credit*1.18);
         }
 }

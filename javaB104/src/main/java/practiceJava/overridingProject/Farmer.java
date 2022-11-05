@@ -1,8 +1,18 @@
 package practiceJava.overridingProject;
 
+import java.util.Scanner;
+
 public class Farmer extends BaseCreditManager {
+
+    public Farmer() {
+        System.out.println("kredi türü :  tarım kredisi");
+    }
+
     @Override
-    protected void calculate(int a) {
-        System.out.println("tarım kredi geri ödeme tutarı = "+ String.format("%1$,.2f",a*1.18)+" €");
+    protected void calculate() {
+        Scanner scan= new Scanner(System.in);
+        System.out.print("kredi tutarı(€) : ");
+        int credit = scan.nextInt();
+        System.out.println("tarım kredi geri ödeme tutarı = "+ String.format("%1$,.2f",credit*1.18)+" €");
     }
 }
