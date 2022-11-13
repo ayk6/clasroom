@@ -25,22 +25,18 @@ public class Product {
         productList.add(p);
     }
 
-
-    public Product() {
-    }
-
     public Product(String productName, String producer, String unit) {
         this.productName = productName;
         this.producer = producer;
         this.unit = unit;
     }
 
-    public Product(int id,String productName, String producer, String unit) {
-        this.id=id;
-        this.productName = productName;
-        this.producer = producer;
-        this.unit = unit;
-    }
+     // public Product(int id,String productName, String producer, String unit) {
+     //     this.id=id;
+     //     this.productName = productName;
+     //     this.producer = producer;
+     //     this.unit = unit;
+     // }
 
     public static void productIdentify() {
         System.out.print("Product Name : ");
@@ -155,17 +151,11 @@ public class Product {
         return productName;
     }
 
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
 
     public String getProducer() {
         return producer;
     }
 
-    public void setProducer(String producer) {
-        this.producer = producer;
-    }
 
     public int getQuantity() {
         return quantity;
@@ -179,9 +169,6 @@ public class Product {
         return unit;
     }
 
-    public void setUnit(String unit) {
-        this.unit = unit;
-    }
 
     public String getShelf() {
         return shelf;
@@ -189,14 +176,6 @@ public class Product {
 
     public void setShelf(String shelf) {
         this.shelf = shelf;
-    }
-
-    public static int getIdNum() {
-        return idNum;
-    }
-
-    public static void setIdNum(int idNum) {
-        Product.idNum = idNum;
     }
 
 
