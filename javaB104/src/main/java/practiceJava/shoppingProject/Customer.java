@@ -42,16 +42,8 @@ public class Customer {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public List<Order> getOrderList() {
         return orderList;
-    }
-
-    public void setOrderList(List<Order> orderList) {
-        this.orderList = orderList;
     }
 
     @Override

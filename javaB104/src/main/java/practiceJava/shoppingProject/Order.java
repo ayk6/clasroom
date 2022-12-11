@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-    private int orderNum;
+    private Customer customer;
+    private final int orderNum;
+    private Bill bill;
     List<Product> productList = new ArrayList<>();
 
     int orderPrice = totalPrice();
@@ -42,4 +44,13 @@ public class Order {
     public static void printOrderList(List<Order> orders) {
         orders.forEach(System.out::println);
     }
+
+    public int getOrderPrice() {
+        return orderPrice;
+    }
+
+    public int getOrderNum() {
+        return orderNum;
+    }
+
 }
