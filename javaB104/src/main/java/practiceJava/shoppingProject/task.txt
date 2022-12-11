@@ -1,0 +1,17 @@
+Design an online shopping system that will contain a customer, product, order and bill objects. (20 POINTS)
+
+ -A customer can place more than one order.
+
+ -There can be more than one product in an order.
+
+ -The product has category, price, name and stock information.
+
+ -Every order has a bill.
+
+Illustrate the OOP concepts and Collection framework structures we learned in the lesson. Just like we did in the lessons, the necessary instance will be created via the Main method, no extra structure is needed. In this direction, write the code that answers the following questions.
+
+ -Find the number of all customers in the system.
+ -Calculate the number of products purchased by customers whose name is Cem.
+ -Calculate the total shopping amount of customers whose name is Cem and who are younger than 30 and
+ older than 25.
+ -List all bills over 1500 TL in the system.
