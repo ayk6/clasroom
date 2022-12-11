@@ -52,11 +52,11 @@ public class Main {
 
         // -Calculate the total shopping amount of customers whose name is Mustafa and who are younger than 30 and
         //  older than 15.
-        System.out.println("task3");
+        System.out.println("print customers whose name is ali and 15<age<30 ");
         customerList.stream().filter(t -> t.getName().equals("Mustafa")).filter(t -> t.getAge() < 30 && t.getAge() > 15).forEach(System.out::println);
 
         // -List all bills over 1500 TL in the system.
-        System.out.println("task4");
+        System.out.println("print bills greater than 15000");
         for (Bill bill : billList) {
             int price = bill.getBillPrice();
             if (price > 15000) {
