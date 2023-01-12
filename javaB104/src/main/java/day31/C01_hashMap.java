@@ -35,5 +35,16 @@ public class C01_hashMap {
         studentAges.remove("Hank",null); // if remove, returns true
         // else returns false
 
+        studentAges.getOrDefault("Hank",0);
+        // if key exists, returns value, else returns default value
+
+        studentAges.putIfAbsent("Jess",30);
+        // if key doesn't exist or value null puts on map and returns value
+        // else returns null
+
+        System.out.println(studentAges.replace("Jess", 25));
+        // if key exists, returns old value, else returns null
+
+
     }
 }
