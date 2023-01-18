@@ -21,10 +21,11 @@ public class C05_iterators {
         // we can use Iterators to update collections
 
         ListIterator<String> itr = myList.listIterator();
+        // we can also use Iterator but Iterator has less method
 
         while (itr.hasNext()){
-            String element = itr.next();
-            itr.set(element+".");
+            //String element = itr.next();
+            itr.set(itr.next()+".");
         }
         System.out.println(myList); // [A., S., D., F.]
     }
