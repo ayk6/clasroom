@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Options extends Account {
     int opt;
 
-    HashMap<Integer, Integer> users = new HashMap<>();asd
+    HashMap<Integer, Integer> users = new HashMap<>();
 
     public void login() {
         ;
