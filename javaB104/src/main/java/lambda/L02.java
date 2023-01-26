@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public class L02 {
     public static void main(String[] args) {
-        List<Integer> numbs = new ArrayList<>(Arrays.asList(11, 56, 35, 99, 0, -19, 25, 36, 14, 4));
+        List<Integer> numbs = new ArrayList<>(Arrays.asList(11, 56, 35, 99, 10, -19, 25, 36, 14, 4));
 
         // print pow even numbs
         numbs.stream().filter(t->t%2==0).map(t->t*t).forEach(L01::printWSpace);
@@ -32,6 +32,15 @@ public class L02 {
         // sum all elements
         System.out.println(
                 numbs.stream().reduce(0, Integer::sum));
+
+        // pow even numbs
+        System.out.println(
+                numbs.stream().filter(t->t%2==0).reduce(1,(a,b)->a*b)+"\n"+
+                numbs.stream().filter(t->t%2==0).reduce(Math::multiplyExact)
+        );
+
+        // sort nd print
+                numbs.stream().sorted().forEach(L01::printWSpace);
 
 
     }
