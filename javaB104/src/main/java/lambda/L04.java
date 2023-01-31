@@ -27,6 +27,17 @@ public class L04 {
 
         // sort by stu count
         System.out.println(sortByStuCount(uniList));
+
+        //count math departments
+        System.out.println(
+                uniList.stream().filter(t -> t.getDepartment().contains("math")).count());
+
+        // print highest average from 200+ departments
+        System.out.println(
+                uniList.stream().filter(t -> t.getStudentCount() > 200).
+                mapToInt(University::getAverage).max()); // 45
+
+
     }
 
     private static List<University> sortByStuCount(List<University> uniList) {
