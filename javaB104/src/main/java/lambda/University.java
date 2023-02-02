@@ -7,9 +7,6 @@ public class University {
     private int studentCount;
     private int average;
 
-    public University() {
-    }
-
     public University(String university, String department, int studentCount, int average) {
         this.university = university;
         this.department = department;
