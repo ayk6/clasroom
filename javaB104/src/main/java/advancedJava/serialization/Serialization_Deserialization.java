@@ -4,7 +4,8 @@ import java.io.*;
 
 public class Serialization_Deserialization {
     public static void main(String[] args) {
-
+       // writeObj();
+        readObj();
     }
 
     private static void writeObj() {
@@ -20,6 +21,21 @@ public class Serialization_Deserialization {
             oos.writeObject(us2);
             oos.writeObject(us3);
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void readObj(){
+        try {
+            FileInputStream fis = new FileInputStream("user.dat");
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            User us1 = (User) ois.readObject();
+            User us2 = (User) ois.readObject();
+            User us3 = (User) ois.readObject();
+            System.out.println(us1);
+            System.out.println(us2);
+            System.out.println(us3);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
