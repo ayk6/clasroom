@@ -22,5 +22,10 @@ public class MainTest {
         }if (transactionType==TransactionType.OTHER){
             System.out.println("other transaction");
         }
+
+        // Enum methods
+        System.out.println(transactionType.name());
+        System.out.println(transactionType.getTransactionCode());
+        System.out.println(transactionType.ordinal()); // which rank
     }
 }
