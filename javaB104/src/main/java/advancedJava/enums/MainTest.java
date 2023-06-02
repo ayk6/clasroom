@@ -1,4 +1,4 @@
-package advancedJava.Enums;
+package advancedJava.enums;
 
 public class MainTest {
     public static void main(String[] args) {

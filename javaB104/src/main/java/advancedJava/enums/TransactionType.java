@@ -1,4 +1,4 @@
-package advancedJava.Enums;
+package advancedJava.enums;
 
 public enum TransactionType {
     DEPOSIT(1),
