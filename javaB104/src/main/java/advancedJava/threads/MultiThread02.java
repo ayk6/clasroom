@@ -1,6 +1,7 @@
 package advancedJava.threads;
 
 public class MultiThread02 {
+    // synchronized allows only one thread
     public static int counter =0;
     public static void main(String[] args) throws InterruptedException {
         Thread thread1 = new Thread(new Runnable() {
@@ -11,7 +12,7 @@ public class MultiThread02 {
             }
         });
         thread1.start();
-        thread1.join();
+        // thread1.join();
         Thread thread2 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -23,10 +24,12 @@ public class MultiThread02 {
     }
 }
 class Counter {
-    public static void count(){
+    public synchronized static void count(){
         for (int i = 0; i<1000;i++){
             MultiThread02.counter++;
         }
         System.out.println(MultiThread02.counter);
+
+        // synchronized allows only one thread
     }
 }
