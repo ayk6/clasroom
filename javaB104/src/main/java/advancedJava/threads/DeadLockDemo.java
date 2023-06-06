@@ -4,6 +4,8 @@ public class DeadLockDemo {
     public static void main(String[] args) {
         // If different treads try to access each other's data,
         // the code will not progress. - Dead Lock
+        // manually resolved
+        // need to change the code
 
         final String lock1 = "lock1";
         final String lock2 = "lock2";
